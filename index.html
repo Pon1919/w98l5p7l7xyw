@@ -215,12 +215,12 @@
   </nav>
 
   <div class="stats">
-    <div class="stat s"><b>10</b><span>Sグレード</span></div>
-    <div class="stat a"><b>31</b><span>Aグレード</span></div>
+    <div class="stat s"><b>11</b><span>Sグレード</span></div>
+    <div class="stat a"><b>32</b><span>Aグレード</span></div>
     <div class="stat b"><b>7</b><span>Bグレード</span></div>
     <div class="stat c"><b>11</b><span>Cグレード</span></div>
     <div class="stat f"><b>10</b><span>厚だが買い☓（ランク外）</span></div>
-    <div class="stat"><b>71</b><span>合計レース（発走済み25含む）</span></div>
+    <div class="stat"><b>71</b><span>合計レース（発走済み28含む）</span></div>
   </div>
 
   <section class="pickup-box" aria-label="ピックアップ">
@@ -234,11 +234,11 @@
 
   <section class="result-summary" aria-label="11月17日 結果 確定分">
     <div class="rs-head">
-      <h2>結果（確定分・25レース）</h2>
-      <span class="rs-hit">的中 3 / 25</span>
+      <h2>結果（確定分・28レース）</h2>
+      <span class="rs-hit">的中 3 / 28</span>
     </div>
-        <p class="rs-note">グレード別（確定分）：S 的中0/1／A 的中0/13／B 的中0/3／C 的中1/3／厚だが買い☓ 的中1/3／グレードなし（発走済み） 的中1/2。</p>
-    <p class="rs-note">今回追加分（2レース）：的中0/2。富山は9/12レース、小松島は9/11レースが確定し、場完了はありません。</p>
+        <p class="rs-note">グレード別（確定分）：S 的中0/3／A 的中1/15／B 的中0/3／C 的中1/3／厚だが買い☓ 的中1/4。</p>
+    <p class="rs-note">今回追加分（3レース）：的中0/3。富山は11/12レース、小松島は10/11レースが確定し、場完了はありません。</p>
     <p class="rs-note">参考（金額集計には含めない）：仮に全レースで車複1点・三連複1点ずつ買っていた場合、車複 的中6/23／三連複 的中6/23。</p>
     <p class="rs-note">松山は全7レース確定し場完了：的中2/7。</p>
     <p class="rs-note">三連単のみ・1点100円で計算（車複は集計対象外）。結果出典：yen-joy 日別一覧とKドリームス（2026-11-17 11:36〜11:39 JST確認、両者は一致）。</p>
@@ -247,15 +247,15 @@
   <div class="note">
     <p><strong>グレード（案B）：</strong> S＝厚＋買い○／A＝中＋買い○／B＝薄＋買い○／C＝買い☓または見送り級。「厚だが買い☓」の10レースはランクに入れず、独立フラグとして分けています。</p>
     <p><strong>買い☓の判定：</strong> 三連単フォーメーション内に8倍以下の組み合わせが1つでもあるレースです（11/17は19レース）。</p>
-    <p><strong>松山1R・2Rは発走済み</strong>のため、オッズ・グレードなしで末尾にまとめています。<strong>別府6R・7R</strong>は厚薄が「薄（見送り検討）」のため、買い○でもCグレードです。</p>
+    <p><strong>松山1R・2Rは発走済み・オッズ未確認</strong>のため、追加ルールでグレードを振り替えています（松山1R＝A、松山2R＝S）。各カードに「発走済み・オッズ未確認」と明記しています。<strong>別府6R・7R</strong>は厚薄が「薄（見送り検討）」のため、買い○でもCグレードです。</p>
     <p><strong>11:35回のオッズ更新</strong>（KEIRIN.JPで11:42〜12:50 JSTに読み取り）で4レースのグレードが変わりました：静岡9R A→C、宇都宮8R C→A、高知1R C→B、高知4R S→厚だが買い☓（ピックアップから除外）。宇都宮・高知はミッドナイトのため今回の値は途中経過で、最終判定は締切5分前の値で行います。</p>
     <p class="small"></p>
   </div>
 
   <div class="filters" role="group" aria-label="グレードで絞り込み">
     <button type="button" data-filter="all" aria-pressed="true">すべて（71）</button>
-    <button type="button" data-filter="s" aria-pressed="false">Sのみ（10）</button>
-    <button type="button" data-filter="a" aria-pressed="false">Aのみ（31）</button>
+    <button type="button" data-filter="s" aria-pressed="false">Sのみ（11）</button>
+    <button type="button" data-filter="a" aria-pressed="false">Aのみ（32）</button>
     <button type="button" data-filter="b" aria-pressed="false">Bのみ（7）</button>
     <button type="button" data-filter="c" aria-pressed="false">Cのみ（11）</button>
     <button type="button" data-filter="pickup" id="filter-pickup-btn" aria-pressed="false">ピックアップのみ（7）</button>
@@ -276,8 +276,8 @@
   <p class="filter-label">レースの状態で絞り込み</p>
   <div class="filters filters-status" role="group" aria-label="レースの状態で絞り込み">
     <button type="button" data-status-filter="all" aria-pressed="true">すべて（71）</button>
-    <button type="button" data-status-filter="done" aria-pressed="false">終了したレース（25）</button>
-    <button type="button" data-status-filter="upcoming" aria-pressed="false">これからのレース（46）</button>
+    <button type="button" data-status-filter="done" aria-pressed="false">終了したレース（28）</button>
+    <button type="button" data-status-filter="upcoming" aria-pressed="false">これからのレース（43）</button>
   </div>
 
   <div class="empty-state" id="empty-state" role="status">
@@ -293,9 +293,9 @@
         <h2>Sグレード</h2>
         <p>厚 ＋ 買い○</p>
       </div>
-      <span class="count">10レース</span>
+      <span class="count">11レース</span>
     </div>
-    <p class="sec-summary">S（確定分）：<b>的中 0 / 1</b></p>
+    <p class="sec-summary">S（確定分）：<b>的中 0 / 3</b></p>
     <div class="list" id="list-s"></div>
   </section>
 
@@ -306,9 +306,9 @@
         <h2>Aグレード</h2>
         <p>中 ＋ 買い○</p>
       </div>
-      <span class="count">31レース</span>
+      <span class="count">32レース</span>
     </div>
-    <p class="sec-summary">A（確定分）：<b>的中 0 / 13</b></p>
+    <p class="sec-summary">A（確定分）：<b>的中 1 / 15</b></p>
     <div class="list" id="list-a"></div>
   </section>
 
@@ -347,22 +347,10 @@
       </div>
       <span class="count">10レース</span>
     </div>
-    <p class="sec-summary">厚だが買い☓（確定分）：<b>的中 1 / 3</b></p>
+    <p class="sec-summary">厚だが買い☓（確定分）：<b>的中 1 / 4</b></p>
     <div class="list" id="list-flag"></div>
   </section>
 
-  <section id="sec-done" class="sec-hold">
-    <div class="sec-head">
-      <span class="grade-badge" aria-hidden="true">済</span>
-      <div>
-        <h2>発走済み</h2>
-        <p>オッズ読み取り前に発走したため、グレード・オッズなし</p>
-      </div>
-      <span class="count">2レース</span>
-    </div>
-    <p class="sec-summary">グレードなし（確定分）：<b>的中 1 / 2</b></p>
-    <div class="list" id="list-done"></div>
-  </section>
   </div>
 
   <footer>
@@ -445,8 +433,8 @@ function yen(n){ return Number(n).toLocaleString('ja-JP')+'円'; }
 
 
 var R17 = [
-  {t:"08:50",v:"松山",r:"1R",cf:null,san:"4-7＝1・5・3",comp:null,min:null,low:null,buy:null,g:"done",res:"4-1-7",outcome:"hit"},
-  {t:"09:10",v:"松山",r:"2R",cf:null,san:"5-2＝1・7・6",comp:null,min:null,low:null,buy:null,g:"done",res:"7-2-1",outcome:"miss"},
+  {t:"08:50",v:"松山",r:"1R",cf:null,san:"4-7＝1・5・3",comp:null,min:null,low:null,buy:null,g:"a",noOdds:1,res:"4-1-7",outcome:"hit"},
+  {t:"09:10",v:"松山",r:"2R",cf:null,san:"5-2＝1・7・6",comp:null,min:null,low:null,buy:null,g:"s",noOdds:1,res:"7-2-1",outcome:"miss"},
   {t:"09:31",v:"松山",r:"3R",cf:null,san:"7-5＝2・1・3",comp:null,min:null,low:2,buy:0,g:"c",res:"7-5-1",outcome:"hit"},
   {t:"09:52",v:"松山",r:"4R",cf:null,san:"1-7＝4・3・5",comp:null,min:null,low:0,buy:1,g:"a",res:"7-2-1",outcome:"miss"},
   {t:"10:13",v:"松山",r:"5R",cf:null,san:"4-1＝5・2・3",comp:null,min:null,low:0,buy:1,g:"a",res:"6-4-7",outcome:"miss"},
@@ -461,8 +449,8 @@ var R17 = [
   {t:"13:45",v:"富山",r:"7R",cf:null,san:"4-5＝3・1",comp:null,min:null,low:0,buy:1,g:"a",res:"4-5-2",outcome:"miss"},
   {t:"14:13",v:"富山",r:"8R",cf:null,san:"7-2＝3・1",comp:null,min:null,low:0,buy:1,g:"a",res:"5-4-2",outcome:"miss"},
   {t:"14:41",v:"富山",r:"9R",cf:null,san:"5-1＝7・2",comp:null,min:null,low:0,buy:1,g:"a",res:"7-3-5",outcome:"miss"},
-  {t:"15:09",v:"富山",r:"10R",cf:null,san:"5-1＝7・2",comp:null,min:null,low:0,buy:1,g:"s",pickup:1},
-  {t:"15:38",v:"富山",r:"11R",cf:null,san:"2-5＝4・7",comp:null,min:null,low:0,buy:1,g:"a"},
+  {t:"15:09",v:"富山",r:"10R",cf:null,san:"5-1＝7・2",comp:null,min:null,low:0,buy:1,g:"s",pickup:1,res:"7-1-5",outcome:"miss"},
+  {t:"15:38",v:"富山",r:"11R",cf:null,san:"2-5＝4・7",comp:null,min:null,low:0,buy:1,g:"a",res:"1-2-5",outcome:"miss"},
   {t:"16:07",v:"富山",r:"12R",cf:null,san:"2-5＝4・1",comp:null,min:null,low:0,buy:1,g:"b"},
   {t:"11:17",v:"小松島",r:"1R",cf:null,san:"3-7＝1・5",comp:null,min:null,low:1,buy:0,g:"c",res:"3-1-2",outcome:"miss"},
   {t:"11:41",v:"小松島",r:"2R",cf:null,san:"7-1＝5・3",comp:null,min:null,low:0,buy:1,g:"a",res:"7-1-4",outcome:"miss"},
@@ -473,7 +461,7 @@ var R17 = [
   {t:"13:59",v:"小松島",r:"7R",cf:null,san:"1-5＝2・4",comp:null,min:null,low:0,buy:1,g:"a",res:"2-4-6",outcome:"miss"},
   {t:"14:27",v:"小松島",r:"8R",cf:null,san:"5-4＝1・7",comp:null,min:null,low:0,buy:1,g:"a",res:"5-7-1",outcome:"miss"},
   {t:"14:55",v:"小松島",r:"9R",cf:null,san:"6-2＝4・3",comp:null,min:null,low:0,buy:1,g:"s",res:"6-4-7",outcome:"miss"},
-  {t:"15:23",v:"小松島",r:"10R",cf:null,san:"1-4＝7・3",comp:null,min:null,low:1,buy:0,g:"flag"},
+  {t:"15:23",v:"小松島",r:"10R",cf:null,san:"1-4＝7・3",comp:null,min:null,low:1,buy:0,g:"flag",res:"1-3-5",outcome:"miss"},
   {t:"15:54",v:"小松島",r:"11R",cf:null,san:"4-1＝5・2",comp:null,min:null,low:0,buy:1,g:"a"},
   {t:"16:00",v:"静岡",r:"1R",cf:null,san:"3-7＝2・1",comp:null,min:null,low:0,buy:1,g:"a"},
   {t:"16:23",v:"静岡",r:"2R",cf:null,san:"1-4＝3・7",comp:null,min:null,low:0,buy:1,g:"a"},
@@ -520,9 +508,10 @@ var R17 = [
 
 function fmt1(n){ return Number(n).toFixed(1); }
 function row17(x){
-  var done = (x.g === 'done');
+  var done = (x.g === 'done' || !!x.noOdds);
   var finished = done || !!x.outcome;
   var tags = '';
+  if(x.noOdds) tags += '<span class="tag">発走済み・オッズ未確認</span>';
   if(x.pickup) tags += '<span class="tag pickup">ピックアップ</span>';
   if(x.interim) tags += '<span class="tag mid">オッズ途中経過（ミッドナイト・最終判定は締切5分前）</span>';
   var conf = x.g==='s' ? '自信度：厚' : x.g==='a' ? '自信度：中' : x.g==='b' ? '自信度：薄' : x.g==='flag' ? '自信度：厚' : '';
@@ -570,7 +559,6 @@ document.getElementById('list-a').innerHTML = bucket17('a').map(function(x){retu
 document.getElementById('list-b').innerHTML = bucket17('b').map(function(x){return row17(x)}).join('');
 document.getElementById('list-c').innerHTML = bucket17('c').map(function(x){return row17(x)}).join('');
 document.getElementById('list-flag').innerHTML = bucket17('flag').map(function(x){return row17(x)}).join('');
-document.getElementById('list-done').innerHTML = bucket17('done').map(function(x){return row17(x)}).join('');
 
 var currentMainFilter = 'all';
 var currentStatusFilter = 'all';
@@ -579,8 +567,7 @@ var secs = {
   a: document.getElementById('sec-a'),
   b: document.getElementById('sec-b'),
   c: document.getElementById('sec-c'),
-  flag: document.getElementById('sec-flag'),
-  done: document.getElementById('sec-done')
+  flag: document.getElementById('sec-flag')
 };
 function applyFilters(){
   var totalVisible = 0;
@@ -614,7 +601,7 @@ function applyFilters(){
   if(totalVisible===0){
     emptyEl.classList.add('show');
     if(currentStatusFilter==='done'){
-      emptyText.textContent = 'この条件に合う終了したレースはありません（11/17の確定済みは松山全7R・富山1R〜9R・小松島1R〜9Rの25レースです）。';
+      emptyText.textContent = 'この条件に合う終了したレースはありません（11/17の確定済みは松山全7R・富山1R〜11R・小松島1R〜10Rの28レースです）。';
     } else {
       emptyText.textContent = '条件を変えてお試しください。';
     }
